@@ -1,0 +1,93 @@
+/*button {
+    padding: 1em 2em;
+    font-size: 1.2em; font-weight: bold;
+    border: 4px solid #222;
+    border-radius: 4px;
+    background-color: lightblue;
+}
+
+button:hover {
+    background-color: lightskyblue;
+}
+
+body{
+    background: seashell;
+}*/
+
+/*div{
+    width: 1080px;
+    height: 820px;
+    margin: 120px auto;
+    overflow: hidden;
+    position: relative;
+}*/
+
+div { border: 1px solid rgb(0, 0, 0); height: 600px; width: 600px; position: relative; }
+
+#ring1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -304.5px 00 -420px;
+    animation: fade1 10s linear infinite; 
+}
+
+#ring2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -440px 00 -420px;
+    animation: fade2 10s linear infinite;
+}
+
+#ring3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -450px 00 -450px;
+    animation: fade3 10s linear infinite; 
+}
+
+@keyframes fade1 {
+    0% {opacity: 1}
+    15% {opacity: 1}
+    30% {opacity: 0}
+    70% {opacity: 0}
+    85% {opacity: 0}
+    100% {opacity: 0}
+}
+
+@keyframes fade2 {
+    0% {opacity: 0}
+    15% {opacity: 0}
+    30% {opacity: 1}
+    70% {opacity: 1}
+    85% {opacity: 0}
+    100% {opacity: 0}
+}
+
+@keyframes fade2 {
+    0% {opacity: 0}
+    15% {opacity: 0}
+    30% {opacity: 0}
+    70% {opacity: 0}
+    85% {opacity: 1}
+    100% {opacity: 1}
+}
+
+h1 {
+    font-family: Arial, "Times New Roman";
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+p {
+    font-family: Arial, "Times New Roman";
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 30px;
+}
