@@ -1,0 +1,44 @@
+head{
+    font-family: 'Times New Roman', Georgia, Arial;
+}
+body{
+    background-color: rgb(31, 31, 31);
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    bottom:30px;
+    position:absolute;
+    display:flex;
+    list-style-type: none;
+}
+a{
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    width: 100px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-out;
+    text-decoration: none;
+}
+#leftt
+{
+    float:right;
+    display:inline;
+    max-width:33%;
+}
+#centret
+{
+    max-width:33%;
+    float:right;
+    display:inline;
+}
+#rightt
+{
+    max-width:33%;
+    float:right;
+    display:inline;
+}
