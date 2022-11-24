@@ -8,7 +8,8 @@ body{
 }
 ul{
     bottom:30px;
-    position:absolute;
+    position:fixed;
+    left:10px;
     display:flex;
     list-style-type: none;
 }
@@ -24,13 +25,40 @@ a{
     transition: 0.3s ease-out;
     text-decoration: none;
 }
-#lefth
-{
-    float:right;
-    display:inline;
+#barmy{
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    width: 100px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-out;
+    text-decoration: none;
 }
-#righth
-{
-    float:right;
-    display:inline;
+#slb{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 100px;
+    top:10px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-out;
+    text-decoration: none;
+    position:relative
+}
+.mySlides {
+    /* display: none; */
+}
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    margin:5px;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
 }

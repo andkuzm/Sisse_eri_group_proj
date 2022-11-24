@@ -8,7 +8,8 @@ body{
 }
 ul{
     bottom:30px;
-    position:absolute;
+    position:fixed;
+    left:10px;
     display:flex;
     list-style-type: none;
 }
