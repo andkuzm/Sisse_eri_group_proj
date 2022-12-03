@@ -19,7 +19,14 @@ body{
 #header{
     display:inline;
 }
-ul{
+#explorbar{
+    position:fixed;
+    display:flex;
+    list-style-type: none;
+    top: 7px;
+    right:10px;
+}
+#uli{
     bottom:30px;
     position:fixed;
     left:10px;

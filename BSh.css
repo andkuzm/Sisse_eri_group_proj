@@ -16,7 +16,14 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
 }
-ul{
+#explorbar{
+    position:fixed;
+    display:flex;
+    list-style-type: none;
+    top: 10px;
+    right:10px;
+}
+#uli{
     bottom:30px;
     position:fixed;
     left:10px;

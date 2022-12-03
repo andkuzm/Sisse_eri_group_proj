@@ -23,10 +23,17 @@ body{
     font-size: larger;
     overflow: hidden;
 }
-ul{
-    bottom:30px;
+#explorbar{
     position:fixed;
-    left:10px;
+    display:flex;
+    list-style-type: none;
+    top: 30px;
+    right:30px;
+}
+#uli{
+    bottom:10px;
+    position:fixed;
+    right:60%;
     display:flex;
     list-style-type: none;
     font-size: medium;
