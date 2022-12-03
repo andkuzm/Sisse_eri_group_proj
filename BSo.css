@@ -11,8 +11,8 @@ head{
     left:0;
 }
 body{
-    background-color: rgb(31, 31, 31);
-    color: rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
+    color: rgb(29, 29, 29);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
 }
@@ -27,12 +27,12 @@ ul{
     list-style-type: none;
 }
 #barmy{
-    color: rgb(255, 255, 255);
+    color: rgb(29, 29, 29);
     padding: 8px;
     width: 100px;
-    border: 2px solid white;
+    border: 2px solid rgb(29, 29, 29);
     background-color: transparent;
-    color: white;
+    color: rgb(29, 29, 29);
     cursor: pointer;
     border-radius: 5px;
     transition: 0.3s ease-out;
@@ -42,13 +42,13 @@ ul{
     top:3px;
 }
 #slb{
-    color: rgb(255, 255, 255);
+    color: rgb(29, 29, 29);
     padding: 5px;
     width: 100px;
     top:10px;
-    border: 2px solid white;
+    border: 2px solid rgb(29, 29, 29);
     background-color: transparent;
-    color: white;
+    color: rgb(29, 29, 29);
     cursor: pointer;
     border-radius: 5px;
     transition: 0.3s ease-out;
