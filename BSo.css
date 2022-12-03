@@ -15,6 +15,7 @@ body{
     color: rgb(29, 29, 29);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
+    padding:10px;
 }
 #header{
     display:inline;
