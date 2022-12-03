@@ -1,4 +1,4 @@
-#backgr{
+/* #backgr{
     width:110%;
     height:110%;
     position:fixed;
@@ -6,7 +6,7 @@
     overflow: hidden;
     top:0;
     left:0;
-}
+} */
 head{
     font-family: 'Times New Roman', Georgia, Arial;
 }
@@ -16,8 +16,15 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
 }
-ul{
-    bottom:30px;
+#explorbar{
+    position:fixed;
+    display:flex;
+    list-style-type: none;
+    top: 10px;
+    right:10px;
+}
+#uli{
+    bottom:27px;
     position:fixed;
     left:10px;
     display:flex;
@@ -28,7 +35,8 @@ ul{
     float:right; 
     display:inline;
     position:relative;
-    top:5px;
+    top:15px;
+    right:10px;
 }
 #leftt
 {
