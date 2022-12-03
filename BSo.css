@@ -1,6 +1,5 @@
 head{
     font-family: 'Times New Roman', Georgia, Arial;
-    background-color: rgb(34, 34, 34);
 }
 #backgr{
     width:110%;
@@ -9,12 +8,16 @@ head{
     opacity:0.01;
     overflow: hidden;
     top:0;
+    left:0;
 }
 body{
     background-color: rgb(31, 31, 31);
     color: rgb(255, 255, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
+}
+#header{
+    display:inline;
 }
 ul{
     bottom:30px;
@@ -52,14 +55,17 @@ ul{
     text-decoration: none;
     position:relative;
 }
-#leftf
+#right
+{
+    float:right; 
+    display:inline;
+}
+#left
 {
     float:left; 
     display:inline;
-    max-width:56%;
-    margin:60px;
 }
-#rightff
+/* #rightff
 {
     float:right;
     display:absolute;
@@ -85,7 +91,7 @@ ul{
     position:relative;
     right: 598px;
     top:180px;
-}
+} */
 .mySlides {
     display: none;
 }

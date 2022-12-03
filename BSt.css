@@ -1,6 +1,12 @@
 head{
     font-family: 'Times New Roman', Georgia, Arial;
 }
+#header{
+    display:inline;
+    position:relative;
+    top:23px;
+    right:20px;
+}
 #backgr{
     width:110%;
     height:110%;
@@ -8,12 +14,14 @@ head{
     opacity:0.01;
     overflow: hidden;
     top:0;
+    left:0;
 }
 body{
     background-color: rgb(31, 31, 31);
     color: rgb(255, 255, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
+    overflow: hidden;
 }
 ul{
     bottom:30px;
@@ -22,6 +30,27 @@ ul{
     display:flex;
     list-style-type: none;
     font-size: medium;
+}
+#right
+{
+    float:right; 
+    display:inline;
+}
+#ht{
+    display:grid;
+    position:relative;
+    right:367px;
+    top:15px;
+
+}
+#left
+{
+    float:left; 
+    display:inline;
+    position:relative;
+    bottom:50px;
+    left:20px;
+
 }
 a{
     color: rgb(255, 255, 255);
