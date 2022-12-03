@@ -7,7 +7,7 @@ head{
     top:23px;
     right:20px;
 }
-#backgr{
+/* #backgr{
     width:110%;
     height:110%;
     position:fixed;
@@ -15,7 +15,7 @@ head{
     overflow: hidden;
     top:0;
     left:0;
-}
+} */
 body{
     background-color: rgb(31, 31, 31);
     color: rgb(29, 29, 29);
@@ -35,6 +35,9 @@ ul{
 {
     float:right; 
     display:inline;
+    position:relative;
+    top:10px;
+    right:10px;
 }
 #ht{
     display:grid;
