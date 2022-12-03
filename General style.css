@@ -1,5 +1,5 @@
 body{
-  height:100vh;
+  /*height: 100vh; /*original was 100vh*/
   margin: 0;
   --x: calc(var(--posX, 0) * 1px);
   --y: calc(var(--posY, 0) * 1px);
