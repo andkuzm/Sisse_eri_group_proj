@@ -115,3 +115,11 @@ body{
     animation-name: fade;
     animation-duration: 1.5s;
 }
+.footer {
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    margin:-15px
+}
