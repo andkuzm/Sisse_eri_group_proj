@@ -148,7 +148,7 @@ a.oglk:link, a.oglk:visited {
 }
 
 a.oglk:hover {
-    text-decoration-line: underline white;  /*Ei tööta???*/
+    text-decoration: underline white;  /*Ei tööta???*/
     cursor: pointer;
 }
 
