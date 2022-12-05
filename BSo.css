@@ -14,12 +14,14 @@ body{
     background-color: rgb(29, 29, 29);
     color: rgb(29, 29, 29);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
     padding:15px;
     overflow:hidden;
 }
-#header{
+h1{
+    font-size:40px;
     display:inline;
+    position:absolute;
+    top:0px;
 }
 #explorbar{
     position:fixed;

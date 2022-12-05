@@ -1,16 +1,16 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+// Tegu, mis näitab jargmine slaid 
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
+// näitab praeguse slaid
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
+//finktsioon et näita praeguse slaid
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
