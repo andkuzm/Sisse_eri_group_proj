@@ -92,7 +92,7 @@ a{
     float:right;
     display:inline;
 }
-#barmy{
+.barmy{
     color: rgb(29, 29, 29);
     padding: 8px;
     width: 100px;
