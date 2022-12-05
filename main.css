@@ -13,9 +13,6 @@ p{
 }
 body{
     margin: 0;
-    cursor: pointer;
-    user-select: none;
-    overflow: hidden;
 }
 
 h1 {
@@ -159,4 +156,4 @@ a.oglk:hover {
     border-radius: 5px;
     transition: 0.3s ease-out;
     text-decoration: none;
-}
+}*/
