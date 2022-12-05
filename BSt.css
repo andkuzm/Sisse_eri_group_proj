@@ -58,8 +58,9 @@ body{
     float:left; 
     display:inline;
     position:relative;
-    bottom:50px;
-    left:20px;
+    bottom:22px;
+    left:30px;
+    font-size: 20px;
 
 }
 a{
