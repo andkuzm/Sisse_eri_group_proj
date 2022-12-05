@@ -57,14 +57,15 @@ h2 {
     top: 500px;
     right:900px;
 }*/
+
 #header{
-    display:center;
     font-size: 60px;
     font-weight: 300;
 	text-align: center;
     padding: 2px;
 }
-#right
+
+/*#right
 {
     float:right; 
     display:inline;
