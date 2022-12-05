@@ -4,11 +4,11 @@ body {
 
 h1 {
 	font-size: 60px;
-    font-weight: 300;
+  font-weight: 300;
 	text-align: center;
-    padding: 40px;
-    background-color: rgb(33, 29, 29);
-    color: white;
+  padding: 40px;
+  background-color: rgb(33, 29, 29);
+  color: white;
 }
 
 h2 {
@@ -62,13 +62,59 @@ h2 {
     justify-content: center;
 }
 
+
 img {
     max-width: 100%;
+    border-radius: 10px;
 }
 
 .image {
     flex-basis: 40%;
 }
+
+.kaob:hover {
+  opacity: 0;
+}
+
+#lime {
+  animation: fade1 10s infinite;
+}
+
+@keyframes fade1 {
+  0% {opacity: 1;}
+  15% {opacity: 1;}
+  30% {opacity: 0;}
+  70% {opacity: 0;}
+  85% {opacity: 1;}
+  100% {opacity: 1;}
+}
+
+#lilled {
+  animation: fade2 10s infinite;
+}
+
+@keyframes fade2 {
+  0% {opacity: 0;}
+  15% {opacity: 0;}
+  30% {opacity: 1;}
+  70% {opacity: 1;}
+  85% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+/*#toss {
+  animation: fade3 10s infinite;
+}
+
+@keyframes fade3 {
+  0% {opacity: 0;}
+  15% {opacity: 0;}
+  16% {opacity: 0;}
+  46% {opacity: 1;}
+  85% {opacity: 1;}
+  86% {opacity: 0;}
+  100% {opacity: 0;}
+}*/
 
 p {
     width: 600px;
@@ -102,7 +148,7 @@ a.oglk:link, a.oglk:visited {
 }
 
 a.oglk:hover {
-    text-decoration: underline white;  /*Ei tööta???*/
+    text-decoration: underline white;
     cursor: pointer;
 }
 

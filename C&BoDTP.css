@@ -10,7 +10,7 @@ body {
 h1 {
     font-size: 60px;
     font-weight: 300;
-	text-align: center;
+	  text-align: center;
     padding: 40px;
     background-color: rgb(33, 29, 29);
     color: white;
@@ -76,7 +76,6 @@ img {
 
 .image {
     flex-basis: 40%;
-    object-position: 15% 20%;
 }
 
  .image:hover {
@@ -148,7 +147,7 @@ a.oglk:link, a.oglk:visited {
 }
 
 a.oglk:hover {
-    text-decoration: underline white;  /*Ei tööta???*/
+    text-decoration: underline white;
     cursor: pointer;
 }
 
