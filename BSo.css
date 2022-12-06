@@ -232,7 +232,7 @@ h1{
     margin:-15px;
     font-size:1vw;
     width:100%;
-    height:6.7vh;
+    /* height:6.7vh; */
 }
 a.oglk:link, a.oglk:visited {
     text-decoration: none;
