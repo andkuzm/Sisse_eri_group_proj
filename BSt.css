@@ -36,7 +36,7 @@ body{
     font-size:1vw;
     bottom:50px;
     position:fixed;
-    left:0;
+    left:-0.5vw;
     display:flex;
     list-style-type: none;
     font-size: medium;
@@ -63,7 +63,7 @@ body{
     position:relative;
     bottom:22px;
     left:30px;
-    font-size: 20px;
+    font-size:1vw;
 
 }
 a{
@@ -116,13 +116,13 @@ a{
 .footer {
     background-color: black;
     position:absolute;
-    justify-content: center;
+    justify-content:center;
     display: inline-flex;
     bottom: 1vh;
     padding-block: 0px 0px;
     margin:-15px;
     font-size:1vw;
-    width:105%;
+    width:100.8%;
 }
 a.oglk:link, a.oglk:visited {
     text-decoration: none;
