@@ -1,11 +1,16 @@
 body {
     margin: 0;
+    background-repeat: repeat-x;
+    background-position: top 200px;
+    background-blend-mode: overlay;
+    z-index: 1;
+    overflow: auto;
 }
 
 h1 {
     font-size: 60px;
     font-weight: 300;
-	  text-align: center;
+	text-align: center;
     padding: 40px;
     background-color: rgb(33, 29, 29);
     color: white;
@@ -71,6 +76,7 @@ img {
 
 .image {
     flex-basis: 40%;
+    object-position: 15% 20%;
 }
 
  .image:hover {
@@ -80,7 +86,7 @@ img {
 
 @keyframes loading {   /*Selle jupi inspiratsioon on siit: https://codepen.io/davilious/pen/DMGNZG*/
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
    }
    50%{
      transform: rotate(360deg);
@@ -92,8 +98,8 @@ img {
     transform: rotate(360deg);
    }*/
    100% {
-      transform: rotate(0deg);
-   }
+    transform: rotate(0deg);
+   };
 }
 
 h3 {
@@ -142,7 +148,7 @@ a.oglk:link, a.oglk:visited {
 }
 
 a.oglk:hover {
-    text-decoration: underline white;
+    text-decoration: underline white;  /*Ei tööta???*/
     cursor: pointer;
 }
 
