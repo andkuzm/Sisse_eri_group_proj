@@ -134,3 +134,11 @@ a.oglk:hover {
     text-decoration: underline white;
     cursor: pointer;
 }
+#img1{
+    height:30vh;
+    width:20vw;
+}
+#img2{
+    height:25vh;
+    width:30vw;
+}
