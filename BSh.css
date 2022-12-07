@@ -1,27 +1,23 @@
-head{
-    font-family: 'Times New Roman', Georgia, Arial;
-}
-#header{
-    display:inline;
-    position:relative;
-    top:23px;
-    right:20px;
-}
 /* #backgr{
     width:110%;
     height:110%;
     position:fixed;
-    opacity:0.01;
+    opacity:0.7;
     overflow: hidden;
     top:0;
     left:0;
 } */
+*{
+}
+head{
+    font-family: 'Times New Roman', Georgia, Arial;
+}
 body{
-    font-size:1.2vw;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(255, 255, 255);
     color: rgb(29, 29, 29);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* font-size: larger; */
+    font-size:1vw;
+    padding:15px;
     overflow: hidden;
 }
 #explorbar{
@@ -29,42 +25,32 @@ body{
     position:fixed;
     display:flex;
     list-style-type: none;
-    top: 30px;
-    right:30px;
+    top: 10px;
+    right:10px;
 }
 #uli{
     font-size:1vw;
-    bottom:50px;
+    bottom:67px;
     position:fixed;
-    left:-0.5vw;
+    left:0.5vw;;
     display:flex;
     list-style-type: none;
-    font-size: medium;
 }
-#right
+#rightt
 {
     float:right; 
     display:inline;
     position:relative;
-    top:10px;
+    top:15px;
     right:10px;
 }
-#ht{
-    display:grid;
-    position:relative;
-    right:367px;
-    top:15px;
-
-}
-#left
+#leftt
 {
     float:left; 
     display:inline;
     position:relative;
-    bottom:22px;
-    left:30px;
+    bottom:15px;
     font-size:1vw;
-
 }
 a{
     color: rgb(29, 29, 29);
@@ -78,24 +64,6 @@ a{
     transition: 0.3s ease-out;
     text-decoration: none;
 }
-#leftt
-{
-    float:right;
-    display:inline;
-    max-width:33%;
-}
-#centret
-{
-    max-width:33%;
-    float:right;
-    display:inline;
-}
-#rightt
-{
-    max-width:33%;
-    float:right;
-    display:inline;
-}
 .barmy{
     color: rgb(29, 29, 29);
     padding: 0.4vw;
@@ -108,21 +76,77 @@ a{
     transition: 0.3s ease-out;
     text-decoration: none;
     font-size: medium;
-    position:relative;
-    bottom: 20px;
-    left: 20px;
     font-size:1vw;
+}
+#slb1{
+    color: rgb(29, 29, 29);
+    padding: 8px;
+    width: 100px;
+    top:10px;
+    border: 2px solid rgb(29, 29, 29);
+    background-color: transparent;
+    color: rgb(29, 29, 29);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-out;
+    text-decoration: none;
+    position:relative;
+}#slb2{
+    color: rgb(29, 29, 29);
+    padding: 8px;
+    width: 100px;
+    top:10px;
+    border: 2px solid rgb(29, 29, 29);
+    background-color: transparent;
+    color: rgb(29, 29, 29);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-out;
+    text-decoration: none;
+    position:relative;
+}
+.mySlides {
+    display: none;
+}
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    margin:5px;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+#vid{
+    padding:0;
+    margin:0;
+    position:relative;
+    bottom:50px;
+}
+#thi{
+    display:flex;
+}
+#left{
+    display:inline;
+    float:left;
+    position:relative;
+    top:30px;
+}
+#right{
+    display:inline;
+    float:right;
+    position:relative;
+    left:60px;
 }
 .footer {
     background-color: black;
     position:absolute;
-    justify-content:center;
+    justify-content: center;
     display: inline-flex;
     bottom: 1vh;
     padding-block: 0px 0px;
     margin:-15px;
     font-size:1vw;
-    width:100.8%;
+    width:100%;
 }
 a.oglk:link, a.oglk:visited {
     text-decoration: none;
