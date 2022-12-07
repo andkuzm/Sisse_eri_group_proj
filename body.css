@@ -13,17 +13,14 @@ body {
 h1 {
     /*padding: 20px
     /*margin: 50px 0 30px;*/
-	font-size: 60px;
+	  font-size: 60px;
     font-weight: 300;
-	text-align: center;
+	  text-align: center;
     background-color: rgb(33, 29, 29);
     border-style: solid;
     border-color: rgb(33, 29, 29);
     border-width: 40px;
     color: white;
-    top: 0;
-    left: 0;
-    right: 0;
 }
 
 h2 {
@@ -144,14 +141,6 @@ a.oglk:hover {
     text-decoration: underline white;  /*Ei tööta???*/
     cursor: pointer;
 }
-
-/*
-.tabcontent {
-    color: rgba(21, 41, 51, 0.11);
-    display: none;
-    padding: 50px;
-    text-align: center;
-  }*/
 
 
 /*alumised nupud: https://codepen.io/mortezasharifinia/pen/QWxmEWW*/
