@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script>
+    <script> //allikas: https://codepen.io/Cory_/pen/PRBOgVS
         var looper;
         var degrees = 0;
-        function rotateAnimation(el,speed){
+        function rotateAnimation(el,speed){ //teeb pandud element pöörata "speed" kiirusega.
             var elem = document.getElementById(el);
             if(navigator.userAgent.match("Chrome")){
                 elem.style.WebkitTransform = "rotate("+degrees+"deg)";
