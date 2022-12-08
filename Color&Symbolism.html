@@ -2,30 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script> //allikas: https://codepen.io/Cory_/pen/PRBOgVS
-        var looper;
-        var degrees = 0;
-        function rotateAnimation(el,speed){ //teeb pandud element pöörata "speed" kiirusega.
-            var elem = document.getElementById(el);
-            if(navigator.userAgent.match("Chrome")){
-                elem.style.WebkitTransform = "rotate("+degrees+"deg)";
-            } else if(navigator.userAgent.match("Firefox")){
-                elem.style.MozTransform = "rotate("+degrees+"deg)";
-            } else if(navigator.userAgent.match("MSIE")){
-                elem.style.msTransform = "rotate("+degrees+"deg)";
-            } else if(navigator.userAgent.match("Opera")){
-                elem.style.OTransform = "rotate("+degrees+"deg)";
-            } else {
-                elem.style.transform = "rotate("+degrees+"deg)";
-            }
-            looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
-            degrees++;
-            if(degrees > 359){
-                degrees = 1;
-            }
-            document.getElementById("status").innerHTML = "rotate("+degrees+"deg)";
-        }
-        </script>
+    <script src="SJa.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="tinywow_värvid1.5_9190659.png">
